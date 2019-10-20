@@ -189,7 +189,7 @@ prime(10000)
 def control_check(n):
     print(sieve_(1000))
     if n > len(sieve_(1000)):
-        return 'Максимальное число проверки = 168'
+        return print('Максимальное число проверки = 168')
     print(sieve(n))
     print(prime(n))
-#control_check(168)
+control_check(169)
